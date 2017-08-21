@@ -38,4 +38,10 @@ public class PasswordTest {
         System.out.println("pass:" + myPass);
         System.out.println("hash:" + resultHash);
     }
+
+    @Test
+    public void third(){}
+
+    @Test
+    public void another(){}
 }
