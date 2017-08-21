@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+       xmlns:beans="http://www.springframework.org/schema/beans"
+>
+    <beans:description>
+        All DAO, Services, Controllers
+    </beans:description>
+
+    <beans:import resource="dataSource.xml"/>
+
+
+    <!--DAO & Services -->
+
+    <beans:bean id="userDAO" class="com.discExchange.dao.UserDAOImpl">
+        <beans:property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory" />
+    </beans:bean>
+    <beans:bean id="userService" class="com.discExchange.service.UserServiceImpl">
+        <beans:property name="userDAO" ref="userDAO"/>
+    </beans:bean>
+
+    <beans:bean id="discDAO" class="com.discExchange.dao.DiscDAOImpl">
+        <beans:property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory" />
+    </beans:bean>
+
+    <beans:bean id="discService" class="com.discExchange.service.DiscServiceImpl">
+        <beans:property name="discDAO" ref="discDAO" />
+       <!-- <beans:property name="userDAO" ref="userDAO" />-->
+    </beans:bean>
+
+    <beans:bean id="takenDiscDAO" class="com.discExchange.dao.TakenDiscDAOImpl">
+        <beans:property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+    </beans:bean>
+
+    <beans:bean id="takenDiscService" class="com.discExchange.service.TakenDiscServiceImpl">
+        <beans:property name="takenDiscDAO" ref="takenDiscDAO"/>
+    </beans:bean>
+
+
+</beans>
