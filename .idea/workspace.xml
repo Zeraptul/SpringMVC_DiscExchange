@@ -7,16 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list id="7ada3831-bfe2-4fbe-b069-c4ca0bc1a298" name="Deferred" comment="Shelve test_2" />
-    <list default="true" id="08efa3e7-e487-46e0-ba66-04102c50ba78" name="Default" comment="Testing Many to Many relationship with Hibernate&#10;1. Add entities with mappings&#10;2. Add dao and some tests">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/discExchange/dao/BooksDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/discExchange/dao/BooksDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/discExchange/model/AuthorEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/discExchange/model/BookEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/discExchange/dao/BookDaoTest.java" />
+    <list default="true" id="08efa3e7-e487-46e0-ba66-04102c50ba78" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/db/sql/create-db.sql" afterPath="$PROJECT_DIR$/src/test/resources/db/sql/create-db.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/db/sql/insert-data.sql" afterPath="$PROJECT_DIR$/src/test/resources/db/sql/insert-data.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/spring/serviceDao.xml" afterPath="$PROJECT_DIR$/src/test/resources/spring/serviceDao.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="C:\Users\adMin\IdeaProjects\_deploy\SpringMVC_DiscExchange\.idea\shelf/" />
@@ -1254,7 +1246,7 @@
       <workItem from="1503302445055" duration="5009000" />
       <workItem from="1503321148579" duration="3764000" />
       <workItem from="1503389471348" duration="2756000" />
-      <workItem from="1503423574877" duration="4639000" />
+      <workItem from="1503423574877" duration="4671000" />
     </task>
     <task id="LOCAL-00001" summary="First upload">
       <created>1503305634433</created>
@@ -1284,7 +1276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503324051111</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Testing Many to Many relationship with Hibernate&#10;1. Add entities with mappings&#10;2. Add dao and some tests">
+      <created>1503428242242</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1503428242242</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1320,7 +1319,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229917000" />
+    <option name="totallyTimeSpent" value="229949000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -1636,6 +1635,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
