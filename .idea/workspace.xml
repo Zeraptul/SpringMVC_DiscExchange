@@ -6,8 +6,18 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08efa3e7-e487-46e0-ba66-04102c50ba78" name="Default" comment="" />
     <list id="7ada3831-bfe2-4fbe-b069-c4ca0bc1a298" name="Deferred" comment="Shelve test_2" />
+    <list default="true" id="08efa3e7-e487-46e0-ba66-04102c50ba78" name="Default" comment="Testing Many to Many relationship with Hibernate&#10;1. Add entities with mappings&#10;2. Add dao and some tests">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/discExchange/dao/BooksDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/discExchange/dao/BooksDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/discExchange/model/AuthorEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/discExchange/model/BookEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/discExchange/dao/BookDaoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/db/sql/create-db.sql" afterPath="$PROJECT_DIR$/src/test/resources/db/sql/create-db.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/db/sql/insert-data.sql" afterPath="$PROJECT_DIR$/src/test/resources/db/sql/insert-data.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/spring/serviceDao.xml" afterPath="$PROJECT_DIR$/src/test/resources/spring/serviceDao.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="C:\Users\adMin\IdeaProjects\_deploy\SpringMVC_DiscExchange\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,6 +27,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" flattened_view="false" />
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
@@ -33,92 +44,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AuthController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/discExchange/AuthController.java">
+      <file leaf-file-name="create-db.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/db/sql/create-db.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="94" column="40" lean-forward="false" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
+            <state relative-caret-position="533">
+              <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessageSourceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/discExchange/MessageSourceTest.java">
+      <file leaf-file-name="BookEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/discExchange/model/BookEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="629">
+              <caret line="37" column="69" lean-forward="false" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PasswordTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/discExchange/PasswordTest.java">
+      <file leaf-file-name="BookDaoTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/discExchange/dao/BookDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="281">
+              <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PropertySourceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/discExchange/PropertySourceTest.java">
+      <file leaf-file-name="BooksDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/discExchange/dao/BooksDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="153">
+              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loginInfoView.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/loginInfoView.jsp">
+      <file leaf-file-name="BooksDaoImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/discExchange/dao/BooksDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_scriptPart.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/_scriptPart.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_footer.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/_footer.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_headPart.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/_headPart.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="availableDiscs.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/availableDiscs.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="459">
+              <caret line="27" column="48" lean-forward="false" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,10 +107,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Jsp File" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -172,14 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pageSample/examples/navbar/sticky-footer-navbar.css" />
-        <option value="$PROJECT_DIR$/pageSample/examples/navbar/loginForm.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/_headPart.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/availableDiscs.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/discExchange/vm/UserVm.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userTakenDiscs.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/loginInfoView.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/_footer.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/_menu.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addDisc.jsp" />
         <option value="$PROJECT_DIR$/pageSample/examples/navbar/index.html" />
@@ -223,6 +194,14 @@
         <option value="$PROJECT_DIR$/src/test/java/com/discExchange/MyTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/discExchange/PropertySourceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/discExchange/PasswordTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/db/sql/create-db.sql" />
+        <option value="$PROJECT_DIR$/src/test/resources/spring/serviceDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/discExchange/model/AuthorEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/discExchange/dao/BooksDao.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/db/sql/insert-data.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/discExchange/dao/BooksDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/discExchange/dao/BookDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/discExchange/model/BookEntity.java" />
       </list>
     </option>
   </component>
@@ -285,6 +264,175 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="bat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="discExchange" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="discExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="discExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="discExchange" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="discExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-test:4.3.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SpringMVC_DiscExchange" type="58d84e3e:PackageViewProjectNode" />
+              <item name="SpringMVC_DiscExchange" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="SpringMVC_DiscExchange" type="58d84e3e:PackageViewProjectNode" />
+              <item name="SpringMVC_DiscExchange" type="616d4139:PackageViewModuleNode" />
+              <item name="com.discExchange" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="Scope">
         <subPane subId="Production">
           <expand>
@@ -383,125 +531,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SpringMVC_DiscExchange" type="58d84e3e:PackageViewProjectNode" />
-              <item name="SpringMVC_DiscExchange" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="SpringMVC_DiscExchange" type="58d84e3e:PackageViewProjectNode" />
-              <item name="SpringMVC_DiscExchange" type="616d4139:PackageViewModuleNode" />
-              <item name="com.discExchange" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
-              <item name="bat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="discExchange" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVC_DiscExchange" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="discExchange" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="SpringMVC_DiscExchange" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-test:4.3.10.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -524,12 +553,9 @@
     <property name="SearchEverywhereHistoryKey" value="dataS&#9;null&#9;null&#10;doAdd&#9;PSI&#9;JAVA://com.discExchange.DiscController#doAddDisc&#10;doLogin&#9;PSI&#9;JAVA://com.discExchange.AuthController#doLogin" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\adMin\IdeaProjects\SpringMVC_DiscExchange" />
-      <recent name="C:\Users\adMin\IdeaProjects\SpringMVC_DiscExchange\src\main\resources" />
-      <recent name="C:\Users\adMin\IdeaProjects\SpringMVC_DiscExchange\src\test\resources\spring" />
-      <recent name="C:\Users\adMin\IdeaProjects\SpringMVC_DiscExchange\src\test\java" />
-      <recent name="C:\Users\adMin\IdeaProjects\SpringMVC_DiscExchange\src\test" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.discExchange.dao" />
+      <recent name="com.discExchange.springInit" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.discExchange.springInit" />
@@ -547,8 +573,12 @@
       <recent name="com.discExchange.model" />
       <recent name="com.discExchange" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.discExchange.springInit" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adMin\IdeaProjects\SpringMVC_DiscExchange" />
+      <recent name="C:\Users\adMin\IdeaProjects\SpringMVC_DiscExchange\src\main\resources" />
+      <recent name="C:\Users\adMin\IdeaProjects\SpringMVC_DiscExchange\src\test\resources\spring" />
+      <recent name="C:\Users\adMin\IdeaProjects\SpringMVC_DiscExchange\src\test\java" />
+      <recent name="C:\Users\adMin\IdeaProjects\SpringMVC_DiscExchange\src\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -563,16 +593,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PropertySourceTest.anotherTest">
-    <configuration name="All in SpringMVC_DiscExchange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+  <component name="RunManager" selected="JUnit.BookDaoTest.getBook_firstMultipleAuthors_success">
+    <configuration name="BookDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.discExchange.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <module name="SpringMVC_DiscExchange" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
+      <option name="PACKAGE_NAME" value="com.discExchange.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.discExchange.dao.BookDaoTest" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -584,7 +619,82 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="DiscDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookDaoTest.getAllBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.discExchange.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SpringMVC_DiscExchange" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.discExchange.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.discExchange.dao.BookDaoTest" />
+      <option name="METHOD_NAME" value="getAllBooks" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="BookDaoTest.getBook_authors_success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.discExchange.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SpringMVC_DiscExchange" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.discExchange.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.discExchange.dao.BookDaoTest" />
+      <option name="METHOD_NAME" value="getBook_authors_success" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="BookDaoTest.getBook_firstMultipleAuthors_success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.discExchange.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="SpringMVC_DiscExchange" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.discExchange.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.discExchange.dao.BookDaoTest" />
+      <option name="METHOD_NAME" value="getBook_firstMultipleAuthors_success" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="DiscDaoTest.addDisc_New_ShouldSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.discExchange.dao.*" />
@@ -596,82 +706,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.discExchange.dao" />
       <option name="MAIN_CLASS_NAME" value="com.discExchange.dao.DiscDaoTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="MyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.discExchange.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SpringMVC_DiscExchange" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.discExchange" />
-      <option name="MAIN_CLASS_NAME" value="com.discExchange.MyTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="PropertySourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.discExchange.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SpringMVC_DiscExchange" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.discExchange" />
-      <option name="MAIN_CLASS_NAME" value="com.discExchange.PropertySourceTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="PropertySourceTest.anotherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.discExchange.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SpringMVC_DiscExchange" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.discExchange" />
-      <option name="MAIN_CLASS_NAME" value="com.discExchange.PropertySourceTest" />
-      <option name="METHOD_NAME" value="anotherTest" />
+      <option name="METHOD_NAME" value="addDisc_New_ShouldSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1159,19 +1194,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Start server" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PropertySourceTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.All in SpringMVC_DiscExchange" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MyTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DiscDaoTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.PropertySourceTest.anotherTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BookDaoTest.getAllBooks" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BookDaoTest.getBook_authors_success" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DiscDaoTest.addDisc_New_ShouldSuccess" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BookDaoTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.BookDaoTest.getBook_firstMultipleAuthors_success" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PropertySourceTest.anotherTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MyTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in SpringMVC_DiscExchange" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DiscDaoTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PropertySourceTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BookDaoTest.getBook_firstMultipleAuthors_success" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BookDaoTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BookDaoTest.getBook_authors_success" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DiscDaoTest.addDisc_New_ShouldSuccess" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BookDaoTest.getAllBooks" />
       </list>
     </recent_temporary>
   </component>
@@ -1185,7 +1220,6 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="08efa3e7-e487-46e0-ba66-04102c50ba78" name="Default" comment="" />
       <changelist id="7ada3831-bfe2-4fbe-b069-c4ca0bc1a298" name="New changelist" comment="" />
-      <changelist id="" name="Shelve test_2" comment="unself" />
       <created>1502193890207</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -1220,6 +1254,7 @@
       <workItem from="1503302445055" duration="5009000" />
       <workItem from="1503321148579" duration="3764000" />
       <workItem from="1503389471348" duration="2756000" />
+      <workItem from="1503423574877" duration="4639000" />
     </task>
     <task id="LOCAL-00001" summary="First upload">
       <created>1503305634433</created>
@@ -1253,39 +1288,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_SpringMVC_DiscExchange - 2017.08.20 at 21h 11m 38s.xml">
-      <configuration name="All in SpringMVC_DiscExchange" configurationId="JUnit" />
+    <history-entry file="BookDaoTest - 2017.08.22 at 23h 42m 37s.xml">
+      <configuration name="BookDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_SpringMVC_DiscExchange - 2017.08.20 at 21h 14m 47s.xml">
-      <configuration name="All in SpringMVC_DiscExchange" configurationId="JUnit" />
+    <history-entry file="BookDaoTest - 2017.08.22 at 23h 43m 56s.xml">
+      <configuration name="BookDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_SpringMVC_DiscExchange - 2017.08.20 at 21h 17m 31s.xml">
-      <configuration name="All in SpringMVC_DiscExchange" configurationId="JUnit" />
+    <history-entry file="BookDaoTest_getBook_authors_success - 2017.08.22 at 23h 30m 15s.xml">
+      <configuration name="BookDaoTest.getBook_authors_success" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiscDaoTest - 2017.08.20 at 21h 10m 22s.xml">
-      <configuration name="DiscDaoTest" configurationId="JUnit" />
+    <history-entry file="BookDaoTest_getBook_authors_success - 2017.08.22 at 23h 32m 24s.xml">
+      <configuration name="BookDaoTest.getBook_authors_success" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest - 2017.08.20 at 21h 09m 11s.xml">
-      <configuration name="MyTest" configurationId="JUnit" />
+    <history-entry file="BookDaoTest_getBook_authors_success - 2017.08.22 at 23h 32m 28s.xml">
+      <configuration name="BookDaoTest.getBook_authors_success" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest - 2017.08.20 at 21h 12m 44s.xml">
-      <configuration name="MyTest" configurationId="JUnit" />
+    <history-entry file="BookDaoTest_getBook_authors_success - 2017.08.22 at 23h 35m 37s.xml">
+      <configuration name="BookDaoTest.getBook_authors_success" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest - 2017.08.20 at 21h 13m 02s.xml">
-      <configuration name="MyTest" configurationId="JUnit" />
+    <history-entry file="BookDaoTest_getBook_firstMultipleAuthors_success - 2017.08.22 at 23h 49m 20s.xml">
+      <configuration name="BookDaoTest.getBook_firstMultipleAuthors_success" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest - 2017.08.20 at 21h 17m 13s.xml">
-      <configuration name="MyTest" configurationId="JUnit" />
+    <history-entry file="BookDaoTest_getBook_firstMultipleAuthors_success - 2017.08.22 at 23h 51m 04s.xml">
+      <configuration name="BookDaoTest.getBook_firstMultipleAuthors_success" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest - 2017.08.20 at 21h 18m 54s.xml">
-      <configuration name="MyTest" configurationId="JUnit" />
+    <history-entry file="BookDaoTest_getBook_firstMultipleAuthors_success - 2017.08.22 at 23h 51m 59s.xml">
+      <configuration name="BookDaoTest.getBook_firstMultipleAuthors_success" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PropertySourceTest_anotherTest - 2017.08.21 at 18h 38m 21s.xml">
-      <configuration name="PropertySourceTest.anotherTest" configurationId="JUnit" />
+    <history-entry file="DiscDaoTest_addDisc_New_ShouldSuccess - 2017.08.22 at 23h 35m 34s.xml">
+      <configuration name="DiscDaoTest.addDisc_New_ShouldSuccess" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225278000" />
+    <option name="totallyTimeSpent" value="229917000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -1300,29 +1335,30 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.49755502" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.49511003" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50839865" sideWeight="0.21882641" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5274356" sideWeight="0.49755502" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43673012" sideWeight="0.7811736" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.51342285" sideWeight="0.8653226" order="7" side_tool="true" content_ui="tabs" x="207" y="470" width="866" height="182" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281075" sideWeight="0.49511003" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.49511003" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3306846" sideWeight="0.5946249" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21026894" sideWeight="0.40537515" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14547677" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49415693" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.712528" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.49755502" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6129754" sideWeight="0.48594132" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.49511003" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.81096196" sideWeight="0.7811736" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.07270694" sideWeight="0.8653226" order="7" side_tool="true" content_ui="tabs" x="207" y="470" width="866" height="182" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281075" sideWeight="0.49511003" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.49511003" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33496332" sideWeight="0.5946249" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21026894" sideWeight="0.40537515" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21026894" sideWeight="0.40537515" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.712528" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1330,7 +1366,6 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32550335" sideWeight="0.48594132" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46943232" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.6666667" sideWeight="0.4935275" order="2" side_tool="false" content_ui="tabs" />
@@ -1402,7 +1437,8 @@
     <MESSAGE value="Shelve test" />
     <MESSAGE value="Shelve test_2" />
     <MESSAGE value="my commit (do nothing useful)" />
-    <option name="LAST_COMMIT_MESSAGE" value="my commit (do nothing useful)" />
+    <MESSAGE value="Testing Many to Many relationship with Hibernate&#10;1. Add entities with mappings&#10;2. Add dao and some tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing Many to Many relationship with Hibernate&#10;1. Add entities with mappings&#10;2. Add dao and some tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1444,7 +1480,7 @@
           <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="62" />
+      <option name="time" value="63" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1459,143 +1495,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="2938" column="25" lean-forward="false" selection-start-line="2938" selection-start-column="25" selection-end-line="2938" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Locale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="489" column="31" lean-forward="false" selection-start-line="489" selection-start-column="31" selection-end-line="489" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE-sources.jar!/org/springframework/core/env/PropertyResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="43" column="11" lean-forward="false" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE.jar!/org/springframework/context/config/spring-context-4.3.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3145">
-          <caret line="185" column="26" lean-forward="true" selection-start-line="185" selection-start-column="26" selection-end-line="185" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/builders/JUnit4Builder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/discExchange/springInit/MyWebApplicationInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="3" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="21" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://SpringLocalModels/module=SpringMVC_DiscExchange">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>SpringLocalModels</ID>
-          <OriginalElement>module=SpringMVC_DiscExchange</OriginalElement>
-          <nodes>
-            <node x="0.0" y="60.0">module=SpringMVC_DiscExchange</node>
-            <node x="313.0" y="0.0">fileset=SpringMVC_DiscExchange/Root Context</node>
-            <node x="241.0" y="60.0">fileset=SpringMVC_DiscExchange/MVC dispatcher initializer servlet context</node>
-            <node x="558.0" y="60.0">com.discExchange.springInit.WebConfig</node>
-            <node x="759.0" y="0.0">com.discExchange.springInit.ServiceDaoConfig</node>
-            <node x="765.0" y="60.0">org.springframework.web.servlet.config.annotation.EnableWebMvc</node>
-            <node x="722.0" y="120.0">org.springframework.transaction.annotation.EnableTransactionManagement</node>
-            <node x="247.0" y="120.0">fileset=SpringMVC_DiscExchange/MVC dispatcher initializer root context</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.discExchange.springInit.WebConfig" target="org.springframework.transaction.annotation.EnableTransactionManagement">
-              <point x="42.0" y="6.666666666666671" />
-              <point x="-96.0" y="-0.0" />
-            </edge>
-            <edge source="com.discExchange.springInit.WebConfig" target="org.springframework.web.servlet.config.annotation.EnableWebMvc">
-              <point x="42.0" y="-0.0" />
-              <point x="-53.0" y="-0.0" />
-            </edge>
-            <edge source="module=SpringMVC_DiscExchange" target="fileset=SpringMVC_DiscExchange/Root Context">
-              <point x="80.5" y="-6.666666666666664" />
-              <point x="241.0" y="10.0" />
-              <point x="-46.5" y="-0.0" />
-            </edge>
-            <edge source="fileset=SpringMVC_DiscExchange/MVC dispatcher initializer servlet context" target="com.discExchange.springInit.WebConfig">
-              <point x="118.5" y="-0.0" />
-              <point x="-42.0" y="-0.0" />
-            </edge>
-            <edge source="com.discExchange.springInit.WebConfig" target="com.discExchange.springInit.ServiceDaoConfig">
-              <point x="42.0" y="-6.666666666666664" />
-              <point x="722.0" y="10.0" />
-              <point x="-59.0" y="-0.0" />
-            </edge>
-            <edge source="module=SpringMVC_DiscExchange" target="fileset=SpringMVC_DiscExchange/MVC dispatcher initializer root context">
-              <point x="80.5" y="6.666666666666671" />
-              <point x="-112.5" y="-0.0" />
-            </edge>
-            <edge source="module=SpringMVC_DiscExchange" target="fileset=SpringMVC_DiscExchange/MVC dispatcher initializer servlet context">
-              <point x="80.5" y="-0.0" />
-              <point x="-118.5" y="-0.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="78.0" y="-110.0" />
-          <SelectedNodes>
-            <node>module=SpringMVC_DiscExchange</node>
-            <node>fileset=SpringMVC_DiscExchange/MVC dispatcher initializer root context</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Show filesets as groups</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.10.RELEASE/spring-webmvc-4.3.10.RELEASE-sources.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.10.RELEASE/spring-webmvc-4.3.10.RELEASE-sources.jar!/org/springframework/web/servlet/support/AbstractAnnotationConfigDispatcherServletInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-102">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1617,14 +1520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="61" lean-forward="false" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/spring/dataSource.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1632,13 +1527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="446" column="26" lean-forward="false" selection-start-line="446" selection-start-column="26" selection-end-line="446" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/spring/serviceDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1723,13 +1611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/discExchange/dao/DiscDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.10.RELEASE/spring-test-4.3.10.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1755,7 +1636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1778,7 +1658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1786,13 +1665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/discExchange/dao/DiscDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1807,7 +1679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1859,14 +1730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/discExchange/MessageSourceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1879,7 +1742,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/discExchange/PropertySourceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="510">
           <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
           <folding />
         </state>
@@ -1890,6 +1753,144 @@
         <state relative-caret-position="388">
           <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/discExchange/MessageSourceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/discExchange/dao/DiscDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/discExchange/dao/DiscDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/9d1b3c05/0b71c383-8484-4101-8bed-a552edc46e2f/testDb.dbo.TakenDiscs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/discExchange/model/DiscEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/db/sql/create-db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="40" column="8" lean-forward="false" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/spring/serviceDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="86" lean-forward="false" selection-start-line="40" selection-start-column="86" selection-end-line="40" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/discExchange/dao/DiscDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.10.RELEASE/spring-jdbc-4.3.10.RELEASE.jar!/org/springframework/jdbc/datasource/init/ScriptUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="239" column="0" lean-forward="false" selection-start-line="239" selection-start-column="0" selection-end-line="239" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/discExchange/dao/BookDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/discExchange/dao/BooksDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/discExchange/model/BookEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="69" lean-forward="false" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/db/sql/insert-data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="58" lean-forward="false" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/discExchange/model/AuthorEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/spring/dataSource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/discExchange/dao/BooksDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="48" lean-forward="false" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

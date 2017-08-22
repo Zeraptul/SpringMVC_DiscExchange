@@ -37,5 +37,8 @@
         <beans:property name="takenDiscDAO" ref="takenDiscDAO"/>
     </beans:bean>
 
+    <beans:bean id="bookDao" class="com.discExchange.dao.BooksDaoImpl">
+        <beans:property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+    </beans:bean>
 
 </beans>

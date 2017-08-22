@@ -24,6 +24,25 @@ CREATE TABLE TakenDiscs(
   description nvarchar(50) NOT NULL
 )
 
+--
+CREATE TABLE Authors(
+  id INTEGER IDENTITY NOT NULL,
+  name nvarchar(50) NOT NULL
+)
+
+CREATE TABLE Books(
+  id INTEGER IDENTITY NOT NULL,
+  title nvarchar(50) NOT NULL
+)
+
+CREATE TABLE AuthorBookLinks(
+  id INTEGER IDENTITY NOT NULL,
+  authorId INTEGER NOT NULL,
+  bookId INTEGER NOT NULL,
+  description nvarchar(50) NOT NULL
+)
+
+
 /*CREATE TABLE Users(
   id int IDENTITY(1,1) NOT NULL,
   nickname nvarchar(50) NOT NULL,
