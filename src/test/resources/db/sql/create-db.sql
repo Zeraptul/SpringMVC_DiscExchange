@@ -41,7 +41,18 @@ CREATE TABLE AuthorBookLinks(
   bookId INTEGER NOT NULL,
   description nvarchar(50) NOT NULL
 )
+--
 
+CREATE TABLE Orders(
+  id INTEGER IDENTITY NOT NULL,
+  remarks nvarchar(50) NOT NULL
+)
+
+CREATE TABLE OrderLines(
+  id INTEGER IDENTITY NOT NULL,
+  orderId INTEGER NOT NULL,
+  quantity INTEGER NOT NULL
+)
 
 /*CREATE TABLE Users(
   id int IDENTITY(1,1) NOT NULL,

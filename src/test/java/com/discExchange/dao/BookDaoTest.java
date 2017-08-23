@@ -19,7 +19,7 @@ public class BookDaoTest {
 
     @Autowired
     @Qualifier("bookDao")
-    BooksDao booksDao;
+    BookDao booksDao;
 
     @Transactional
     @Test

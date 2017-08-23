@@ -5,7 +5,7 @@ import com.discExchange.model.BookEntity;
 
 import java.util.List;
 
-public interface BooksDao {
+public interface BookDao {
     List<BookEntity> getAllBooks();
     List<AuthorEntity> getAllAuthors();
 }

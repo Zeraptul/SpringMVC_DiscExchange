@@ -14,9 +14,9 @@ import java.util.List;
 
 
 @Repository
-public class BooksDaoImpl implements BooksDao {
+public class BookDaoImpl implements BookDao {
 
-    private static final Logger logger = LoggerFactory.getLogger(BooksDaoImpl.class);
+    private static final Logger logger = LoggerFactory.getLogger(BookDaoImpl.class);
 
     @Setter
     private SessionFactory sessionFactory;

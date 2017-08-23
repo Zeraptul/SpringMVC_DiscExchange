@@ -13,6 +13,7 @@ INSERT INTO TakenDiscs (id, ownerUserId, discId, takingUserId, description) VALU
 INSERT INTO TakenDiscs (id, ownerUserId, discId, takingUserId, description) VALUES (2, 1, 2, 4, N'descr')
 INSERT INTO TakenDiscs (id, ownerUserId, discId, takingUserId, description) VALUES (4, 1, 4, NULL, N'not taken')
 
+--
 INSERT INTO Authors(id, name) VALUES (1, N'Green');
 INSERT INTO Authors(id, name) VALUES (2, N'Blue');
 
@@ -22,3 +23,12 @@ INSERT Into Books(id, title) VALUES (2, N'secBook');
 INSERT INTO AuthorBookLinks(id, authorId, bookId, description) VALUES (1, 1, 1, N'myDescr');
 INSERT INTO AuthorBookLinks(id, authorId, bookId, description) VALUES (2, 2, 1, N'myDescr');
 INSERT INTO AuthorBookLinks(id, authorId, bookId, description) VALUES (3, 2, 2, N'myDescr');
+
+--
+INSERT INTO Orders(id, remarks) VALUES (1, N'my remark');
+
+
+INSERT INTO OrderLines(id, orderId, quantity) VALUES (1, 1, 1);
+INSERT INTO OrderLines(id, orderId, quantity) VALUES (2, 1, 3);
+
+

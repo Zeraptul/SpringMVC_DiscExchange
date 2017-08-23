@@ -37,8 +37,12 @@
         <beans:property name="takenDiscDAO" ref="takenDiscDAO"/>
     </beans:bean>
 
-    <beans:bean id="bookDao" class="com.discExchange.dao.BooksDaoImpl">
+    <beans:bean id="bookDao" class="com.discExchange.dao.BookDaoImpl">
         <beans:property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+    </beans:bean>
+
+    <beans:bean id="orderDao" class="com.discExchange.dao.OrderDaoImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
     </beans:bean>
 
 </beans>
