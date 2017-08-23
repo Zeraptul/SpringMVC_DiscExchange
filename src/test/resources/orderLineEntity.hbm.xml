@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.discExchange.model" >
+        <class name="com.discExchange.model.OrderLineEntity" table="OrderLines">
+            <id name="id" column="id">
+                <generator class="identity"/>
+            </id>
+            <property name="quantity" type="java.lang.Integer"/>
+            <many-to-one name="order" class="com.discExchange.model.OrderEntity" fetch="select">
+                <column name="orderId" not-null="true" />
+            </many-to-one>
+        </class>
+</hibernate-mapping>

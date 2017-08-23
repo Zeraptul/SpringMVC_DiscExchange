@@ -2,6 +2,10 @@ package com.discExchange.dao;
 
 import com.discExchange.model.OrderEntity;
 import com.discExchange.model.OrderLineEntity;
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -27,6 +31,8 @@ public class OrderDaoTest {
         List<OrderEntity> orderEntityList = orderDao.getAllOrders();
         Assert.assertTrue(orderEntityList.size() > 0);
     }
+
+
 
     @Test
     @Transactional
