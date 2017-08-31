@@ -11,5 +11,109 @@
       <user-name>sa</user-name>
       <introspection-schemas>testDb:dbo</introspection-schemas>
     </data-source>
+    <data-source name="dataSource" uuid="3e8436ad-a79c-45dd-bfe4-fba3e649b139">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>gleb</user-name>
+    </data-source>
+    <data-source name="dataSource" uuid="dd2a9895-1177-4624-acda-2599234df445">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>gleb</user-name>
+    </data-source>
+    <data-source name="dataSource" uuid="f3a5c1ee-085f-4776-b052-53ff91b4aab3">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>sa</user-name>
+    </data-source>
+    <data-source name="dataSource" uuid="6b442ca6-7287-40c6-adbb-97379f5b8e43">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>gleb</user-name>
+    </data-source>
+    <data-source name="dataSource" uuid="e19c7693-7d44-433a-8bcb-5d6b25001916">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>gleb</user-name>
+    </data-source>
+    <data-source name="dataSource" uuid="68ba1385-4ca4-4b6e-9936-06558894cb15">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>sa</user-name>
+    </data-source>
+    <data-source name="dataSource" uuid="696e8685-2b37-4d52-b1fd-4ed8893eaf64">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>sa</user-name>
+    </data-source>
+    <data-source name="dataSource" uuid="bcaed0de-fe58-480b-a250-cb091d2eef9b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>gleb</user-name>
+    </data-source>
+    <data-source name="dataSource" uuid="ef61d356-b4bc-4a6c-b3d8-7db0c65214ee">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>sa</user-name>
+    </data-source>
+    <data-source name="dataSource" uuid="e87f84fa-ff53-4676-88ac-5356c659c66a">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>gleb</user-name>
+    </data-source>
+    <data-source name="hibernate.cfg.xml/Hibernate" uuid="7ce8abd7-48e5-49a0-951b-df924c9c4a65">
+      <database-info product="HSQL Database Engine" version="2.3.4" jdbc-version="4.0" driver-name="HSQL Database Engine Driver" driver-version="2.3.4">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <user-name>sa</user-name>
+      <introspection-schemas>PUBLIC:PUBLIC</introspection-schemas>
+    </data-source>
+    <data-source name="dataSource" uuid="23bd7f4f-f376-495b-9137-fbb496251d0c">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>gleb</user-name>
+    </data-source>
+    <data-source name="dataSource" uuid="f2d308e5-1462-4730-a8e3-7e95d73824ca">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>sa</user-name>
+    </data-source>
+    <data-source name="dataSource" uuid="c769fdec-bc18-4cc6-a83f-92ca559c0fcc">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>gleb</user-name>
+    </data-source>
+    <data-source name="dataSource" uuid="d9915f11-525e-4489-8a5e-f9ae979c1327">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>sa</user-name>
+    </data-source>
+    <data-source name="dataSource" uuid="b5879f28-224f-41ec-9765-946e3aef036d">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>gleb</user-name>
+    </data-source>
+    <data-source name="dataSource" uuid="300fecf9-51ca-433f-b2d4-52f8cf1f626e">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>sa</user-name>
+    </data-source>
+    <data-source name="dataSource" uuid="bcd42fa1-fa04-406c-9163-82f9b931cd6a">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>gleb</user-name>
+    </data-source>
+    <data-source name="dataSource" uuid="be37a885-fef1-41bd-a473-458ef863140a">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>gleb</user-name>
+    </data-source>
+    <data-source name="dataSource" uuid="42064435-58a0-4de3-b365-3381850abc95">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>gleb</user-name>
+    </data-source>
+    <data-source name="dataSource" uuid="be7b02b3-6470-4cf5-8f60-f06af231ed87">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>sa</user-name>
+    </data-source>
+    <data-source name="dataSource" uuid="13ef000e-f5bf-4970-be27-b32056556a5a">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>gleb</user-name>
+    </data-source>
+    <data-source name="dataSource" uuid="c53994b3-a3b8-42dd-9c90-d5c5e2eba2de">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>gleb</user-name>
+    </data-source>
+    <data-source name="dataSource" uuid="86f3b87b-e98f-42b7-b642-52671c760cf0">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>gleb</user-name>
+    </data-source>
+    <data-source name="dataSource" uuid="04d53c2e-1d51-47fd-9718-6969ec389ee0">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>gleb</user-name>
+    </data-source>
   </component>
 </project>
